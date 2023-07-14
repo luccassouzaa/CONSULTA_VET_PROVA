@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#consultas-container {
+    margin-bottom: 20px;
+}
+
+#consultas-container .consulta {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#consulta-form {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgba(180, 238, 255, 0.466);
+}
+
+#consulta-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+
+#consulta-form input[type="text"],
+#consulta-form input[type="datetime-local"] {
+    width: 95%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#consulta-form button {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
